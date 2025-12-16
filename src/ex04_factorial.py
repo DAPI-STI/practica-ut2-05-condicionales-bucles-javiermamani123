@@ -13,3 +13,27 @@ def factorial(n: int) -> int:
     - Debe resolverse usando un bucle (no recursión).
     """
     raise NotImplementedError("Implementa factorial(n)")
+
+def factorial(n: int) -> int:
+    """
+    Devuelve n! (n factorial).
+
+    Reglas:
+    - 0! = 1
+    - Si n < 0, lanza ValueError.
+    - Debe resolverse usando un bucle (no recursión).
+    """
+    if n < 0:
+        raise ValueError("El factorial no está definido para números negativos")
+    
+    resultado = 1
+    for i in range(1, n + 1):
+        resultado *= i
+    
+    return resultado
+
+# Pruebas
+print(factorial(0))   # 1
+print(factorial(5))   # 120
+print(factorial(7))   # 5040
+# print(factorial(-3))  # Esto lanzaría ValueError
