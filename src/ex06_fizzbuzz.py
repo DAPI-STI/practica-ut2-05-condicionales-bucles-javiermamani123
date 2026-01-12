@@ -16,7 +16,6 @@ def fizzbuzz(n: int) -> list[str]:
     """
     raise NotImplementedError("Implementa fizzbuzz(n)")
 
-
 def fizzbuzz(n: int) -> list[str]:
     """
     Devuelve una lista con los valores de 1 a n, siguiendo estas reglas:
@@ -47,3 +46,4 @@ def fizzbuzz(n: int) -> list[str]:
 # Pruebas
 print(fizzbuzz(15))
 # ['1', '2', 'Fizz', '4', 'Buzz', 'Fizz', '7', '8', 'Fizz', 'Buzz', '11', 'Fizz', '13', '14', 'FizzBuzz']
+

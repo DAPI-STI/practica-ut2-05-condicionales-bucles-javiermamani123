@@ -17,7 +17,7 @@ def is_leap_year(year: int) -> bool:
 
 def is_leap_year(year: int) -> bool:
     """
-    Devuelve True si el año es bisiesto, False en caso contrario.
+    Devuelve True si el año es bisiesto, False en caso de que no.
 
     Reglas:
     - Un año es bisiesto si es divisible por 4
